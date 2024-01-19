@@ -1,0 +1,194 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+/* header css start here */
+
+.website-primary-bg{
+    background-color: #43BB7B;
+}
+.social-icon a{
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 10px;
+}
+.social-icon a i{
+    line-height: 30px;
+    color: #43BB7B;
+}
+.social-icon a:last-child{
+    margin-right: 0;
+}
+.container-fluid img{
+    width: 70px;
+    height: 50px;
+}
+#header{
+    min-height: 100px;
+}
+/* header css end here */
+
+
+
+/* banner css start here */
+.banner{
+    background-image: url(../images/Capture.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.banner .banner-text{
+    padding: 180px 0;
+}
+.banner .banner-text h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+.banner .banner-text p{
+    font-size: 20px;
+}
+.capture-btn{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #222;
+    border: 2px solid #222;
+    padding: 10px 42px;
+    border-radius: 6px;
+    transition: .3s all linear;
+    font-weight: 600;
+    display: inline-block;
+}
+.capture-btn:hover{
+    background-color:#43BB7B;
+    border-color: #43BB7B;
+    color: #fff;
+}
+/* banner css end here */
+
+
+/* social logo css start here */
+.internet-bg{
+    background-color: #F3F3F3;
+}
+.text-style h1{
+    font-family: 'Salsa', cursive;
+    color: #cbcdce;
+    
+}
+/* social logo css end here */
+
+
+/* list section start here */
+.list{
+    background-color: #FAF9F9;
+    padding: 80px 250px;
+}
+.phone-img img{
+    width: 200px;
+    height: 360px;
+    border-radius: 30px;
+}
+.list-section h2{
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #767575;
+}
+.list-section p{
+    font-size: 14px;
+    color: #BBB9B9;
+}
+.list-section ul{
+    list-style: none;
+}
+ul li{
+    color: #7F7E7E;
+}
+.phn-btn{
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#5F5F5F;
+    border: 2px solid #222;
+    padding: 10px 35px;
+    border-radius: 6px;
+    transition: .3s all linear;
+    font-weight: 600;
+    display: inline-block;
+    border: 2px solid #5F5F5F;
+    margin-left: 25px;
+}
+.normal-btn{
+    text-decoration: none;
+    color: #BBB9B9;
+    font-size: 15px;
+    padding-left: 25px;
+}
+/* list section end here */
+
+
+/* feature section start here */
+#feature .card{
+    border: 0;
+}
+.my-icon a{
+    color: #fff;
+}
+.my-icon{
+    margin-top: 80px;
+}
+.my-icon a i{
+    font-size: 30px;
+}
+#feature .card-title{
+    margin: 10px 0;
+}
+#feature .card-text{
+    padding-top: 10px;
+}
+/* feature section end here */
+
+
+/* newsletter section start here */
+#newsletter{
+    padding: 100px 0;
+}
+.mail-box{
+    position: relative;
+}
+.mail-icon{
+    position: absolute;
+    right: 17px;
+    top: 5px;
+}
+.mail-icon i{
+    color: #43BB7B;
+    font-size: 27px;
+}
+.form-control::placeholder { 
+    color: #43BB7B;
+    opacity: 1; 
+}
+/* newsletter section end here */
+
+
+/* footer part start here */
+footer{
+    background-color: #FFFFFF;
+}
+#footer{
+    padding: 80px 0;
+}
+#footer .footer-text{
+    color: #7F7E7E;
+}
+#footer .footer-icon{
+    color: #BBB9B9;
+    padding: 10px;
+    font-size: 35px;
+}
+/* footer part end here */
+
